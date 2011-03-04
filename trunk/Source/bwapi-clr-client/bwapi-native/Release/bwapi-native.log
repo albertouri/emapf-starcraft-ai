@@ -1,0 +1,38 @@
+﻿Build started 01-02-2011 00:42:09.
+     1>Project "D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\bwapi-native.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\bwapi-native.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\bwapi-native.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /I../../Common/BWAPI/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BWAPINATIVE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\Common\SWIG\Wrapper\bwapi-bridge.cxx" "bwapi-native.cpp" "..\..\Common\SWIG\Wrapper\bwapiclient-bridge.cxx" "..\..\Common\SWIG\Wrapper\bwta-bridge.cxx"
+         bwapi-bridge.cxx
+         bwapi-native.cpp
+         bwapiclient-bridge.cxx
+         bwta-bridge.cxx
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\CL.exe /c /I../../Common/BWAPI/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D BWAPINATIVE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc90.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 9.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:../../Common/BWAPI/lib BWAPI.lib BWAPIClient.lib BWTA.lib tinyxml.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBCMT /MANIFEST /ManifestFile:"Release\bwapi-native.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.lib" /MACHINE:X86 /DLL "Release\bwapi-bridge.obj"
+         "Release\bwapi-native.obj"
+         "Release\bwapiclient-bridge.obj"
+         "Release\bwta-bridge.obj"
+         Release\dllmain.obj
+            Creating library D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.lib and object D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.exp
+         Generating code
+         Finished generating code
+         bwapi-native.vcxproj -> D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.dll
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v6.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.dll;#2" /manifest "Release\bwapi-native.dll.intermediate.manifest"
+       PostBuildEvent:
+         copy /y "D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\Release\bwapi-native.dll" "..\..\..\Release\Libs\client"
+         :VCEnd
+                 1 file(s) copied.
+       FinalizeBuildStatus:
+         Deleting file "Release\bwapi-native.unsuccessfulbuild".
+         Touching "Release\bwapi-native.lastbuildstate".
+     1>Done Building Project "D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\bwapi-native\bwapi-native.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:16.36
