@@ -1,0 +1,39 @@
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.exe.config
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.exe
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.pdb
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\bwapi-clr.dll
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\StarcraftBotLib.dll
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\bwapi-clr.pdb
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\StarcraftBotLib.pdb
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResolveAssemblyReference.cache
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.Properties.Resources.resources
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResGen.read.1.tlog
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResGen.write.1.tlog
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.exe
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.pdb
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.exe.config
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.exe
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.pdb
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\bwapi-clr.dll
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\StarcraftBotLib.dll
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\bwapi-clr.pdb
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\StarcraftBotLib.pdb
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResolveAssemblyReference.cache
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.Properties.Resources.resources
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResGen.read.1.tlog
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResGen.write.1.tlog
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.exe
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.pdb
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.exe.config
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.exe
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\ClrAIModuleLoader.pdb
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\bwapi-clr.dll
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\StarcraftBotLib.dll
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\bwapi-clr.pdb
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\bin\Release\StarcraftBotLib.pdb
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResolveAssemblyReference.cache
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.Properties.Resources.resources
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResGen.read.1.tlog
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ResGen.write.1.tlog
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.exe
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\clrAIModuleLoader\obj\Release\ClrAIModuleLoader.pdb

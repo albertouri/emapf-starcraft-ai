@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bwapi-clr", "bwapi-clr.csproj", "{6657C37C-4F1B-4972-AAB0-B395EE5F53DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testbot", "..\testbot\testbot.csproj", "{1C5B29FD-973D-4FE9-BD94-B29A869330C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6657C37C-4F1B-4972-AAB0-B395EE5F53DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6657C37C-4F1B-4972-AAB0-B395EE5F53DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6657C37C-4F1B-4972-AAB0-B395EE5F53DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6657C37C-4F1B-4972-AAB0-B395EE5F53DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C5B29FD-973D-4FE9-BD94-B29A869330C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C5B29FD-973D-4FE9-BD94-B29A869330C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C5B29FD-973D-4FE9-BD94-B29A869330C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C5B29FD-973D-4FE9-BD94-B29A869330C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+E:\StarCraftBot_CLR_ClientV3.4\Release\Libs\client\StarcraftBot.exe
+E:\StarCraftBot_CLR_ClientV3.4\Release\Libs\client\StarcraftBot.pdb
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\ResolveAssemblyReference.cache
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\StarcraftBot.exe
+E:\StarCraftBot_CLR_ClientV3.4\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\StarcraftBot.pdb
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Release\Libs\client\StarcraftBot.exe
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Release\Libs\client\StarcraftBot.pdb
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\ResolveAssemblyReference.cache
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\StarcraftBot.exe
+D:\Dokumenter\Dropbox\My Dropbox\Speciale\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\StarcraftBot.pdb
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\StarcraftBot.exe
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\StarcraftBot.pdb
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Release\Libs\client\StarcraftBot.exe
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Release\Libs\client\StarcraftBot.pdb
+D:\Dokumenter\IT-Universitetet\Speciale\CD\Source\StarCraftBot_CLR_Client\Source\bwapi-clr-client\StarcraftBot\obj\x86\Release\ResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="06693A25-6F5A-4750-84F5-16272421AF05" ModuleId="StarcraftBot" />
+  <Module PersistentId="6657C37C-4F1B-4972-AAB0-B395EE5F53DF" ModuleId="bwapi-clr" />
+</Modules>

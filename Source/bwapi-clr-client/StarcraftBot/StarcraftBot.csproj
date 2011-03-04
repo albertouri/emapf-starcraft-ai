@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{06693A25-6F5A-4750-84F5-16272421AF05}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StarcraftBot</RootNamespace>
+    <AssemblyName>StarcraftBot</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\debug-binaries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\release-binaries\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\debug-binaries\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>..\..\..\Release\Libs\client\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BotEvents.cs" />
+    <Compile Include="BW\Unit2.cs" />
+    <Compile Include="EvolutionaryAlgorithms\Chromosome.cs" />
+    <Compile Include="EvolutionaryAlgorithms\FastRandom.cs" />
+    <Compile Include="EvolutionaryAlgorithms\GaussianRandom.cs" />
+    <Compile Include="EvolutionaryAlgorithms\EvolutionaryAlgorithm.cs" />
+    <Compile Include="EvolutionaryAlgorithms\RandomNumber.cs" />
+    <Compile Include="EvolutionaryAlgorithms\UnitAgentChromosome.cs" />
+    <Compile Include="EvolutionaryAlgorithms\XMLFileHandler.cs" />
+    <Compile Include="Logger\Logger.cs" />
+    <Compile Include="MathHelpers\MyMath.cs" />
+    <Compile Include="MathHelpers\Polygon.cs" />
+    <Compile Include="MathHelpers\Triangle.cs" />
+    <Compile Include="StarcraftBot.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\Settings.cs" />
+    <Compile Include="TacticalAssaultAgent.cs" />
+    <Compile Include="Terrain\Analyzer.cs" />
+    <Compile Include="Trainer.cs" />
+    <Compile Include="UnitAgents\OptimizedPropertiesMultiplyers.cs" />
+    <Compile Include="UnitAgents\Terran\Terran_Firebat_Agent.cs" />
+    <Compile Include="UnitAgents\Terran\Terran_Goliath_Agent.cs" />
+    <Compile Include="UnitAgents\Terran\Terran_Marine_Agent.cs" />
+    <Compile Include="UnitAgents\Terran\Terran_Medic_Agent.cs" />
+    <Compile Include="UnitAgents\Terran\Terran_SCV_Agent.cs" />
+    <Compile Include="UnitAgents\Terran\Terran_SiegeTank_Agent.cs" />
+    <Compile Include="UnitAgents\Terran\Terran_Vulture_Agent.cs" />
+    <Compile Include="UnitAgents\UnitAgent.cs" />
+    <Compile Include="UnitAgents\UnitAgentOptimizedProperties.cs" />
+    <Compile Include="Util\IniFile.cs" />
+    <Compile Include="Util\Logger.cs" />
+    <Compile Include="Wrapper\BuildTile.cs" />
+    <Compile Include="Wrapper\BwapiObjectContainer.cs" />
+    <Compile Include="Wrapper\Errors.cs" />
+    <Compile Include="Wrapper\Game.BuildTiles.cs" />
+    <Compile Include="Wrapper\Game.CanMake.cs" />
+    <Compile Include="Wrapper\Game.CanResearch.cs" />
+    <Compile Include="Wrapper\Game.CanUpgrade.cs" />
+    <Compile Include="Wrapper\Game.cs" />
+    <Compile Include="Wrapper\Game.Draw.Color.cs" />
+    <Compile Include="Wrapper\Game.Draw.cs" />
+    <Compile Include="Wrapper\Game.Flags.cs" />
+    <Compile Include="Wrapper\Game.Input.cs" />
+    <Compile Include="Wrapper\Game.Map.cs" />
+    <Compile Include="Wrapper\Game.Screen.cs" />
+    <Compile Include="Wrapper\Game.Units.cs" />
+    <Compile Include="Wrapper\Game.WalkTiles.cs" />
+    <Compile Include="Wrapper\KeyboardKeys.cs" />
+    <Compile Include="Wrapper\Latencies.cs" />
+    <Compile Include="Wrapper\Map.cs" />
+    <Compile Include="Wrapper\MapBaseLocation.cs" />
+    <Compile Include="Wrapper\MapChokepoint.cs" />
+    <Compile Include="Wrapper\MapPolygon.cs" />
+    <Compile Include="Wrapper\MapRegion.cs" />
+    <Compile Include="Wrapper\Orders.cs" />
+    <Compile Include="Wrapper\Player.cs" />
+    <Compile Include="Wrapper\PlayerTypes.cs" />
+    <Compile Include="Wrapper\Position.cs" />
+    <Compile Include="Wrapper\Races.cs" />
+    <Compile Include="Wrapper\TechType.cs" />
+    <Compile Include="Wrapper\TechTypes.cs" />
+    <Compile Include="Wrapper\Unit.Building.Addon.cs" />
+    <Compile Include="Wrapper\Unit.Building.cs" />
+    <Compile Include="Wrapper\Unit.Building.LiftLand.cs" />
+    <Compile Include="Wrapper\Unit.Building.Rally.cs" />
+    <Compile Include="Wrapper\Unit.Building.Train.cs" />
+    <Compile Include="Wrapper\Unit.cs" />
+    <Compile Include="Wrapper\Unit.Follow.cs" />
+    <Compile Include="Wrapper\Unit.LoadUnload.cs" />
+    <Compile Include="Wrapper\Unit.Morph.cs" />
+    <Compile Include="Wrapper\Unit.Order.cs" />
+    <Compile Include="Wrapper\Unit.Patrol.cs" />
+    <Compile Include="Wrapper\Unit.Repair.cs" />
+    <Compile Include="Wrapper\Unit.Research.cs" />
+    <Compile Include="Wrapper\Unit.Resource.cs" />
+    <Compile Include="Wrapper\Unit.SiegeMode.cs" />
+    <Compile Include="Wrapper\Unit.Spell.cs" />
+    <Compile Include="Wrapper\Unit.Status.cs" />
+    <Compile Include="Wrapper\Unit.Tech.cs" />
+    <Compile Include="Wrapper\Unit.Upgrade.cs" />
+    <Compile Include="Wrapper\UnitSizeTypes.cs" />
+    <Compile Include="Wrapper\UnitType.cs" />
+    <Compile Include="Wrapper\UnitTypes.cs" />
+    <Compile Include="Wrapper\UpgradeType.cs" />
+    <Compile Include="Wrapper\UpgradeTypes.cs" />
+    <Compile Include="Wrapper\WalkTile.cs" />
+    <Compile Include="Wrapper\WeaponType.cs" />
+    <Compile Include="Wrapper\WeaponTypes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PotentialFields\" />
+    <Folder Include="UnitAgents\Protoss\" />
+    <Folder Include="UnitAgents\Zerg\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\bwapi-clr\bwapi-clr.csproj">
+      <Project>{6657C37C-4F1B-4972-AAB0-B395EE5F53DF}</Project>
+      <Name>bwapi-clr</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
